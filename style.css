@@ -43,6 +43,9 @@ span{
     list-style: none;
     /* padding: 0; */
     margin: 2rem 0;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+
     /* display: flex;
     flex-direction: column;
     gap: 2rem; */
@@ -50,6 +53,7 @@ span{
 .options li{
     /* margin: 3rem 0; */
     padding: 20px;
+    
 }
 
 .social-media{

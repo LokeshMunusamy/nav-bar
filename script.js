@@ -9,22 +9,20 @@ menuBar.addEventListener("click",()=>{
     visible.style.visibility = 'visible';
 });
 
-
-// bod.addEventListener("click",()=>{
-//     // visible.style.visibility = 'hidden';
-    
-    
-// });
-
 details.forEach(detail=>{
     detail.addEventListener('mouseover',()=>{
         detail.style.backgroundColor='lightblue';
         detail.style.cursor='pointer';
-        detail.style.scale=1.2;
+        detail.style.transform='scale(1.2)';
+        detail.style.transformOrigin='left center';
+        detail.style.overflow='hidden';
+        
+        
     });
     detail.addEventListener('mouseout',()=>{
         detail.style.backgroundColor='';
         detail.style.scale='';
+        detail.style.transform='';
     });
 
 });
